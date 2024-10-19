@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário2</title>
+</head>
+<body>
+    <form action="processa.php">
+        <p>
+            <strong> o que você achou do Site??</strong>
+            <dl></dd>
+                <input type="radio" name="avaliacao" value="muitobom checked"> Muito bom
+                <input type="radio" name="avaliacao" value="bom">Bom
+                <input type="radio" name="avaliacao" value="regular">Regular
+                <input type="radio" name="avaliacao" value="umlixo"> Regular
+            <dd></dl>
+        </p>
+
+        <p>
+            <strong> Qual a seçãp que você mais gostou ??</strong>
+            <dl></dd>
+            <select name="secao" size="1">
+                   <option value="umcartaz">Em cartaz</option>
+                   <option value="trilhasonora">trilha sonora</option>
+                  <option value="fotos">Galeria de fotos</option>
+                     <option value="bilheteria">Bilheteria</option>
+                     <option value="Outra">Outra</option>
+             </select>
+             Outra: <input type="text " size="26" maxlength="256" name="outra">
+            <dd></dl>
+        </p>
+    </form>
+    
+</body>
+</html>
